@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-PATH = os.path.join(os.path.dirname(__file__), "Cancer_Data.csv")
+PATH = os.path.join(os.path.dirname(__file__), "cancer-risk-factors.csv")
 
 def load_data() -> tuple[pd.DataFrame, pd.DataFrame]:
     data = pd.read_csv(PATH)
